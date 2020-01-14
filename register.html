@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-12 mt-4">
+          <div class="logo"><img src="images/logo.png" /></div>
+          <div class="account-box mb-5">
+            <h2 class="text-center my-4">Register</h2>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputFName">First Name</label>
+                  <input type="text" class="form-control" id="inputFName" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputLName">Last Name</label>
+                  <input type="password" class="form-control" id="inputLName" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputMNumber">Mobile Number</label>
+                  <input type="text" class="form-control" id="inputMNumber" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputEmail">Email Address</label>
+                  <input type="password" class="form-control" id="inputEmail" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputPassword">Password</label>
+                  <input type="text" class="form-control" id="inputPassword" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputConfirmPassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputConfirmPassword"
+                  />
+                </div>
+              </div>
+              <hr />
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputSponsor">Sponsor ID</label>
+                  <input type="text" class="form-control" id="inputSponsor" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputSponsor2">&nbsp;</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputSponsor2"
+                    readonly
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputBinaryPlacement">Binary Placement</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputBinaryPlacement"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputBinaryPlacement2">&nbsp;</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputBinaryPlacement2"
+                    readonly
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="selectBinaryPosition"
+                  >Binary Placement Position</label
+                >
+                <select class="form-control" id="selectBinaryPosition">
+                  <option value="" selected disabled hidden>Choose here</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="selectAccountPackage">Account Package</label>
+                <select class="form-control" id="selectAccountPackage">
+                  <option value="" selected disabled hidden>Choose here</option>
+                  <option>Gold </option>
+                  <option>Diamond</option>
+                  <option>Platinum</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputActivationCode">Activation Code</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputActivationCode"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPinCode">Pin Code</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPinCode"
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary mb-3">
+                Register
+              </button>
+              <p>
+                Already have an account? <a href="#" class="link">Sign In</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

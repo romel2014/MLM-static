@@ -1,0 +1,126 @@
+/* font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap");
+/* background colors */
+/* Colors */
+/* box-shadow */
+/* border-radius */
+.link {
+  text-decoration: none;
+  color: #916dd5;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #7345ca;
+}
+
+.btn-primary {
+  background-color: #916dd5;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #7345ca;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #727272;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+  background-color: #b3b3b3;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-control {
+  font-size: 0.8rem;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-control:focus {
+  border: 1px solid #d89cf6;
+  background-color: #f0e3ff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #f0e3ff;
+  opacity: 1;
+}
+
+body {
+  background: #f0e3ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 1.8em;
+  color: #727272;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-weight: 600;
+}
+
+.account-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* logo */
+.logo {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 160px;
+}
+/*# sourceMappingURL=style.css.map */

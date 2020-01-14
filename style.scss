@@ -1,0 +1,40 @@
+@import 'scss/variables';
+@import 'scss/buttons';
+@import 'scss/forms';
+
+body {
+  background: $backgroundColor;
+  font-family: $fontFamily;
+  font-size: 12px;
+  line-height: 1.8em;
+  color: $fontColor;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  font-family: $fontFamily;
+  color: $headerColor;
+  font-weight: 600;
+}
+
+.account-box {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: $boxShadow;
+  border-radius: $borderRadius;
+}
+
+/* logo */
+
+.logo {
+  margin-bottom: 2em;
+  text-align: center;
+  img {
+    max-width: 160px;
+  }
+}

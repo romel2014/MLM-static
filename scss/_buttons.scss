@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+  color: $primaryColor;
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+    color: darken($primaryColor, 10%);
+  }
+}
+
+.btn-primary {
+  background-color: $primaryColor;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  box-shadow: $boxShadow;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primaryColor, 10%);
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.btn-secondary {
+  background-color: $borderColor;
+  color: $fontColor;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  box-shadow: $boxShadow;
+  &:hover {
+    background-color: darken($borderColor, 10%);
+    color: #fff;
+  }
+}
